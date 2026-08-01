@@ -1,7 +1,26 @@
 aid: post-quantum
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/post-quantum.png
 name: Post-Quantum
-description: Post-Quantum is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Post-Quantum is a quantum-safe cybersecurity company founded in 2009 that
+  protects critical infrastructure against both present-day threats and future quantum-computing
+  attacks. Its platform spans Identity Protection, a hybrid post-quantum VPN standardized
+  by the IETF as RFC 9370, and quantum-safe messaging, built on a crypto-agile modular
+  architecture and NIST-round cryptography such as Classic McEliece. The company authored
+  RFC 9370, delivered first-in-world quantum-safe drone communications, and its technology
+  is deployed in NATO and active defense environments. The public web presence is a
+  marketing and platform-overview site; no public developer API, SDK, documentation
+  portal, or sign-up surface is published as of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/post-quantum/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Security
+- Cybersecurity
+- Quantum
+- Post-Quantum Cryptography
+- Cryptography
+- Encryption
+- VPN
+- Identity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,16 @@ maintainers:
 common:
 - type: Website
   url: https://post-quantum.com/
+- type: About
+  url: https://post-quantum.com/company.html
+- type: PrivacyPolicy
+  url: https://post-quantum.com/privacy_policy.html
+- type: TermsOfService
+  url: https://post-quantum.com/term_of_service.html
+- type: DomainSecurity
+  url: security/post-quantum-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
